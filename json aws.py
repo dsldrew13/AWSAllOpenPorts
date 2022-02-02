@@ -1,5 +1,5 @@
 """
-Export json file in aws config with security groups along with ports
+Export json file in aws config with security groups along with ports, see SQL query to get JSON data
 
 """
 
