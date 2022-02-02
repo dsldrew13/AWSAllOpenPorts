@@ -1,3 +1,8 @@
+"""
+Export json file in aws config with security groups along with ports
+
+"""
+
 import json
 
 with open('test.json') as json_file:
