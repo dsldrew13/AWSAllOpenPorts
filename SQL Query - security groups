@@ -1,0 +1,10 @@
+SELECT
+resourceId,  
+resourceName,  
+configuration.ipPermissions.fromPort,  
+configuration.ipPermissions.toPort,  
+resourceType,  
+configuration.instanceType,  
+tags,  
+availabilityZone
+WHERE  resourceType = 'AWS::EC2::SecurityGroup'
